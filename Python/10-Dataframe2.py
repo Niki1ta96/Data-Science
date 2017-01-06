@@ -53,3 +53,5 @@ titanic_train.set_index('PassengerId', inplace = True)
 #resetting index column
 titanic_train.reset_index()
 titanic_train.reset_index(inplace = True)
+
+titanic_train.iloc[0:5,:]

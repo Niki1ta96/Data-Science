@@ -2,15 +2,18 @@ import tensorflow as tf
 from tensorflow.contrib import learn
 from tensorflow.contrib import layers
 from tensorflow.contrib import losses
-from tensorflow.examples.tutorials.mnist import mnist
+from tensorflow.examples.tutorials.mnist import input_data
 import pandas as pd
+import numpy as np
 from sklearn import metrics
+import os
 
+os.chdir("//home//tensorflow//")
 tf.logging.set_verbosity(tf.logging.INFO)
 
 # read digit images of 28 x 28 = 784 pixels size
 # target is image value in [0,9] range; one-hot encoded to 10 columns
-mnist = input_data.read_data_sets('MNIST_data', one_hot = True)
+mnist = input_data.read_data_sets('MNIST_data', one_hot=True)
 
 X_train = mnist.train.images
 y_train = mnist.train.labels

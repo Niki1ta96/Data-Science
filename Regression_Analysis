@@ -1,0 +1,95 @@
+Regression Analysis: it is a conceptually simple method for investing functional relationship among variables.
+-	This relationship is expressed in the form of equation or a model connecting the response variable to the one or more dependent or predictor variable.
+-	 Y = f(X1, X2, ….., n) + €
+Steps in Regression Analysis:
+1.	Statement of Problem
+2.	Selection of potentially relevant variable
+3.	Data Collection 
+4.	Model Specification 
+5.	Choice of fitting methods
+6.	Model fitting
+7.	Model validation and criticism
+8.	Using the chosen models for the solution of posed problems
+Statement of Problem:
+The most important step in regression coz,
+-	Ill-defined problem or misformulated questions leads to wastage of efforts
+-	May lead to wrong choices of the statistical method of analysis
+-	Wrong choice of model
+Selection of potentially relevant variable
+-	Set a set of variables that are thought by experts 
+Data Collection 
+Data collection can be Qualitative or Quantitative
+-	Qualitative (Category): Neighborhood Type (Good or Bad), House Style (Ranch, colonial, etc.)
+-	Quantitative (Continuous numbers): House prices, Number of bed room, Tax, Age
+-	Technique where the response variable is binary called as logistic regression
+-	If all Predictors variables are qualitative then the technique is called as analysis of variance
+-	If some of the predictor variables are quantitative while others are qualitative then the technique is called as analysis of covariance
+Model Specification 
+-	Linear:  Y = β0 + β1X1 + €
+-	Non-Linear: Y = β0 + e(β1X1) + €   
+-	A regression equation containing one predictor variable is called as simple regression equation
+-	An equation containing more than one predictor variable is called as multiple regression equation
+ 
+
+Model fitting
+The estimated regression equation becomes,
+  
+The value Y hat is called as the fitted value.
+Model validation and criticism
+-	Models are built on certain assumptions about the data and the model. 
+-	Accuracy of the analysis and the conclusion derived from the analysis depends on the validity of these assumptions 
+ 
+Covariance and correlation coefficient:
+We wish to measure the both the direction and strength of the variables
+1.	Covariance: 
+-	Cov (Y, X) = ∑ (Yi- Y^)(Xi – X^)/ n-1
+-	Cov (Y, X) > 0, then positive relationship
+-	Cov (Y, X) < 0, then negative relationship
+-	Cov (Y, X) = 0, means there is no linear relationship, may or may not have any other form of relation
+-	Cov is not scale dependent, it affected with the change in units 
+
+ 
+2.	Correlation of coefficient:
+-	Covariance between the standardized X and Y is called as correlation coefficient
+-	It measures both the direction and the strength of relationship between the X and Y
+-	Sign of correlation indicates the direction of the relationship
+-	Cor (Y,X) > 0, implies X and Y are positively related
+-	Cor(Y, X) < 0, implies X and Y are negatively related 
+-	Cor(Y, X) = 0 means they are not linearly related
+-	Magnitude of Cor(Y,X) measures strength
+-	Correlation is useful quantity to measures both strength and directions of the linear relationship between the Y and X
+-	-1 <= Cor(Y, X) <= 1
+-	
+ 
+
+Simple Linear Regression Analysis:
+-	The relationship between response variable Y and the predictor variable X in a linear model is,
+Y = β0 + β1X1 + €
+Where, β0 and β1 are constants called regression coefficient
+	€ is the random error
+β1 called as slope, change in Y for unit change in X
+β0 called as constant coefficient or intercept
+Difference between correlation coefficient and Regression analysis:
+-	Cor(Y, X) is same as Cor(X, Y)
+-	In Cor, X and Y are equally importance
+-	In regression, Y is primarily importance
+How to validate the assumption of linear regression,
+1.	Parameter estimator, used least square method to minimize the error
+2.	Test of hypothesis, if X = 0 then Y = β0 + €
+3.	Confidence interval, 
+Multiple Linear Regression:
+Y = β0 + β1X1 + β2X2 + …. + βnXn + €
+Where, β0, β1, … , constants or regression coefficient
+€ - random error
+
+
+
+
+
+
+  
+
+
+
+
+ 

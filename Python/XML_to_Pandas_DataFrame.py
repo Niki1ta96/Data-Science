@@ -5,6 +5,10 @@ Created on Wed Mar  8 01:57:35 2017
 
 @author: tensorflow
 """
+import xml.etree.ElementTree as ET
+from lxml import etree
+import pandas as pd
+import os
 
 def xml2df(xml_data):
     tree = ET.parse(xml_data) #Initiates the tree Ex: <user-agents>
